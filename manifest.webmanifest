@@ -1,0 +1,84 @@
+{
+  "id": "./",
+  "name": "FUT 27",
+  "short_name": "FUT 27",
+  "lang": "es",
+  "dir": "ltr",
+  "description": "Fútbol en 3D gratis: partido rápido, copa y entrenamiento con más de 250 clubes ficticios. Funciona sin conexión.",
+  "start_url": "./jugar/?app=1",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
+  "orientation": "landscape",
+  "background_color": "#05080f",
+  "theme_color": "#05080f",
+  "categories": [
+    "games",
+    "sports",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "shots/partido.jpg",
+      "sizes": "1440x810",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Partido con la cámara de televisión"
+    },
+    {
+      "src": "shots/menu.jpg",
+      "sizes": "1200x675",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Menú principal"
+    },
+    {
+      "src": "shots/movil.jpg",
+      "sizes": "844x390",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "En el móvil con controles táctiles"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Jugar",
+      "url": "./jugar/",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
